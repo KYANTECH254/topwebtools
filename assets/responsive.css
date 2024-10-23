@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero a {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .features .feature-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .how-it-works .step {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .tools-list .tool-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Media Queries for Mobile Devices */
+    ul {
+        display: none;
+    }
+
+    ul li {
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+    }
+
+    .nav-menu.show {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        right: 0;
+        background-color: #0044cc;
+        position: relative;
+    }
+
+}
